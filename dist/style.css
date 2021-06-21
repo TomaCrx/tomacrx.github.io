@@ -1,0 +1,28 @@
+:root {
+	--font: grey;
+	--bg: whitesmoke;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+::selection {
+	background-color: var(--font);
+	color: var(--bg);
+}
+
+a{
+	color: var(--font);
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Liberation', sans-serif;
+	color: var(--font);
+	background-color: var(--bg);
+	scrollbar-width: none;
+}
+
+
+
