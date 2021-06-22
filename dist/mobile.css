@@ -110,12 +110,15 @@ section{
 ███████  ███ ███  ██ ██      ███████ ██   ██
 */
 .img-center{
-	/*width: 100%;
-	display: flex;
-	height: auto;*/
 	position: relative;
 	top: 48%;
 	transform: translateY(-50%);
+}
+	
+.embed-video .img-center{
+	position: unset;
+	top: unset;
+	transform: none;
 }
 
 .home-swiper,
@@ -140,9 +143,6 @@ section{
 .swiper-folio .swiper-slide{
 	width: 100%;
 	margin: auto;
-	/*display: flex;
-	align-items: center;*/
-
 }
 
 .swiper-home-content{
@@ -155,7 +155,6 @@ section{
 .swiper-folio img,
 .swiper-folio video{
 	width: 100%;
-	/*height: auto;*/
 }
 
 .swiper-home-content video,
